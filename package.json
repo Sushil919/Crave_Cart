@@ -1,0 +1,20 @@
+{
+  "name": "crave_cart",
+  "version": "1.0.0",
+  "description": "This is food App project",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sushil919/Crave_Cart.git"
+  },
+  "keywords": [],
+  "author": "Sushil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sushil919/Crave_Cart/issues"
+  },
+  "homepage": "https://github.com/Sushil919/Crave_Cart#readme"
+}
