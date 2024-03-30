@@ -2,8 +2,10 @@
   "name": "crave_cart",
   "version": "1.0.0",
   "description": "This is food App project",
-  "main": "App.js",
+ 
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -16,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/Sushil919/Crave_Cart/issues"
   },
-  "homepage": "https://github.com/Sushil919/Crave_Cart#readme"
+  "homepage": "https://github.com/Sushil919/Crave_Cart#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserlist": [
+    "last two versions"
+  ]
 }
