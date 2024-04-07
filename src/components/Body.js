@@ -33,10 +33,7 @@ const Body = () => {
                     />
                     <button className="search-btn" onClick={
                         () => {
-                            //filter the restaurant cart and update thr UI
-                            //searchText
                             console.log(searchText);
-
                             const filteredRestaurant = listOfRestaurants.filter(
                                 (res) => res.info.name.toLowerCase().includes(searchText.toLowerCase())
                             );
