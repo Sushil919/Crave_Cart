@@ -18,7 +18,7 @@ const Body = () => {
         const json = await data.json();
 
         console.log(json);
-            //Optional chaining : right way to write code
+        
         setListOfRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
     };
     return listOfRestaurants.length === 0 ? (<Shimmer /> ) : (
