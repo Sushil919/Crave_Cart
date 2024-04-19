@@ -24,6 +24,8 @@ const Body = () => {
         setFilteredRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     };
 
+    //Write POST Method here
+
     return listOfRestaurants.length === 0 ? (<Shimmer /> ) : 
     (
         <div className="body">
